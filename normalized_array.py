@@ -6,7 +6,8 @@ import numpy as np
     else:
       new_array = (data - np.min(data)) / (np.max(data) - np.min (data))
 
-    pass new_array
+    return new_array
+    pass
     # חשוב לזכור להחליף את pass ב- return
 
 if __name__ == "__main__":
